@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>qassist Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <h1>qassist Settings</h1>
+
+    <section class="card">
+      <h2>Jira Cloud</h2>
+      <p class="help">
+        qassist uses your existing Jira browser session — no API token needed.
+        Just enter your Jira domain below. You must be logged in to Jira in this browser.
+      </p>
+
+      <form id="jira-form">
+        <div class="field">
+          <label for="domain">Jira Domain</label>
+          <input type="text" id="domain" placeholder="yoursite.atlassian.net" required autocomplete="off">
+          <span class="hint">Without https://</span>
+        </div>
+
+        <div class="actions">
+          <button type="submit" id="btn-save" class="btn btn-primary">Save & Test</button>
+          <button type="button" id="btn-clear" class="btn btn-secondary">Clear</button>
+        </div>
+
+        <div id="status" class="status" style="display:none"></div>
+      </form>
+    </section>
+
+    <section class="card" id="user-info-card" style="display:none">
+      <h2>Connected As</h2>
+      <p id="user-info"></p>
+    </section>
+  </div>
+
+  <script src="../../dist/options/options.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+  <title>qassist</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>qassist</h1>
+      <button id="btn-options" class="icon-btn" title="Settings" aria-label="Open settings">⚙</button>
+    </header>
+
+    <div id="screenshot-section" class="section">
+      <div class="section-header" data-toggle="screenshot-content">Screenshot</div>
+      <div id="screenshot-content" class="section-content">
+        <img id="screenshot-preview" alt="Screenshot preview">
+        <label class="checkbox-row">
+          <input type="checkbox" id="include-screenshot" checked>
+          Attach screenshot to Jira issue
+        </label>
+      </div>
+    </div>
+
+    <div class="section">
+      <label for="bug-title">Title</label>
+      <input type="text" id="bug-title" placeholder="Brief description of the issue">
+    </div>
+
+    <div class="section">
+      <label for="steps">Steps to Reproduce</label>
+      <textarea id="steps" rows="3" placeholder="1. Go to...&#10;2. Click on...&#10;3. Observe..."></textarea>
+    </div>
+
+    <div class="section">
+      <label for="expected">Expected Behavior</label>
+      <textarea id="expected" rows="2" placeholder="What should happen"></textarea>
+    </div>
+
+    <div class="section">
+      <label for="actual">Actual Behavior</label>
+      <textarea id="actual" rows="2" placeholder="What actually happened"></textarea>
+    </div>
+
+    <div class="section">
+      <div class="section-header collapsed" data-toggle="env-content">Environment</div>
+      <div id="env-content" class="section-content collapsed">
+        <pre id="env-info"></pre>
+      </div>
+    </div>
+
+    <div id="errors-section" class="section" style="display:none">
+      <div class="section-header" data-toggle="errors-content">
+        Console Errors <span id="error-count" class="badge">0</span>
+      </div>
+      <div id="errors-content" class="section-content collapsed">
+        <pre id="errors-list"></pre>
+      </div>
+    </div>
+
+    <div id="requests-section" class="section" style="display:none">
+      <div class="section-header" data-toggle="requests-content">
+        Failed Requests <span id="request-count" class="badge">0</span>
+      </div>
+      <div id="requests-content" class="section-content collapsed">
+        <pre id="requests-list"></pre>
+      </div>
+    </div>
+
+    <div id="jira-panel" class="jira-panel" style="display:none">
+      <div class="field-row">
+        <label for="jira-project">Project</label>
+        <select id="jira-project"></select>
+      </div>
+      <div class="field-row">
+        <label for="jira-issue-type">Issue Type</label>
+        <select id="jira-issue-type"></select>
+      </div>
+      <div class="field-row">
+        <label for="jira-priority">Priority</label>
+        <select id="jira-priority">
+          <option value="">— none —</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button id="btn-copy" class="btn btn-secondary">Copy</button>
+      <button id="btn-jira" class="btn btn-primary">Create Jira Issue</button>
+    </div>
+
+    <div id="status" class="status" style="display:none"></div>
+  </div>
+
+  <script src="../../dist/popup/popup.js" type="module"></script>
+</body>
+</html>
