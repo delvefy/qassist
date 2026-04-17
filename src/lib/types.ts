@@ -38,7 +38,7 @@ export interface BugReport {
   environment: EnvironmentInfo;
   consoleErrors: ConsoleError[];
   failedRequests: FailedRequest[];
-  screenshotDataUrl?: string;
+  screenshots?: string[];
 }
 
 export interface JiraConfig {
@@ -48,8 +48,31 @@ export interface JiraConfig {
   defaultPriority?: string;
 }
 
+export interface AutofillUserPayload {
+  firstName: string;
+  lastName: string;
+  fullName: string;
+  birthday: string;
+  phone: string;
+  email: string;
+  street: string;
+  city: string;
+  state: string;
+  zip: string;
+  country: string;
+  countryCode: string;
+}
+
+export interface AutofillResult {
+  filled: number;
+  skipped: number;
+  fields: string[]; // labels of fields that got filled
+}
+
 // Message types between components
 export type Message =
   | { type: 'console-error'; error: ConsoleError }
   | { type: 'get-tab-data'; tabId: number }
-  | { type: 'tab-data'; data: TabData };
+  | { type: 'tab-data'; data: TabData }
+  | { type: 'autofill-user'; user: AutofillUserPayload }
+  | { type: 'autofill-result'; result: AutofillResult };

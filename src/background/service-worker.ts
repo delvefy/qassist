@@ -90,4 +90,11 @@ chrome.webRequest.onBeforeRequest.addListener(
   { urls: ['<all_urls>'] }
 );
 
+// Make clicking the toolbar icon open the side panel.
+chrome.runtime.onInstalled.addListener(() => {
+  chrome.sidePanel
+    .setPanelBehavior({ openPanelOnActionClick: true })
+    .catch((err) => console.warn('[qassist] setPanelBehavior failed:', err));
+});
+
 console.log('qassist service worker initialized');

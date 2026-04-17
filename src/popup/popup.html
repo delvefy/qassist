@@ -9,89 +9,200 @@
 <body>
   <div class="container">
     <header>
-      <h1>qassist</h1>
+      <button id="btn-back" class="icon-btn" title="Back to menu" aria-label="Back to menu" style="display:none">←</button>
+      <h1 id="view-title">qassist</h1>
       <button id="btn-options" class="icon-btn" title="Settings" aria-label="Open settings">⚙</button>
     </header>
 
-    <div id="screenshot-section" class="section">
-      <div class="section-header" data-toggle="screenshot-content">Screenshot</div>
-      <div id="screenshot-content" class="section-content">
-        <img id="screenshot-preview" alt="Screenshot preview">
-        <label class="checkbox-row">
-          <input type="checkbox" id="include-screenshot" checked>
-          Attach screenshot to Jira issue
-        </label>
-      </div>
+    <!-- ── Picker view ── -->
+    <div id="picker-view" class="view">
+      <button class="tile" data-mode="jira">
+        <div class="tile-title">Create Jira Issue</div>
+        <div class="tile-desc">Capture the page, write up a bug, file it to Jira.</div>
+      </button>
+      <button class="tile" data-mode="usergen">
+        <div class="tile-title">Generate User</div>
+        <div class="tile-desc">Fake name, email, phone, address for filling forms.</div>
+      </button>
+      <button class="tile" data-mode="users">
+        <div class="tile-title">Users List</div>
+        <div class="tile-desc">Your known QA test accounts, synced via Drive.</div>
+      </button>
+      <button class="tile" data-mode="strange">
+        <div class="tile-title">Strange Stuff</div>
+        <div class="tile-desc">Gotchas, runbook snippets, and odd cases.</div>
+      </button>
     </div>
 
-    <div class="section">
-      <label for="bug-title">Title</label>
-      <input type="text" id="bug-title" placeholder="Brief description of the issue">
+    <!-- ── Jira view ── -->
+    <div id="jira-view" class="view" style="display:none">
+      <div id="screenshot-section" class="section">
+        <div class="screenshot-header">
+          <span class="screenshot-title">Screenshots <span id="screenshot-count" class="screenshot-count">0</span></span>
+          <button type="button" id="btn-capture" class="btn btn-secondary btn-compact">+ Capture</button>
+        </div>
+        <div id="screenshot-thumbs" class="screenshot-thumbs"></div>
+      </div>
+
+      <div class="section">
+        <label for="bug-title">Title</label>
+        <input type="text" id="bug-title" placeholder="Brief description of the issue">
+      </div>
+
+      <div class="section">
+        <label for="steps">Steps to Reproduce</label>
+        <textarea id="steps" rows="3" placeholder="1. Go to...&#10;2. Click on...&#10;3. Observe..."></textarea>
+      </div>
+
+      <div class="section">
+        <label for="expected">Expected Behavior</label>
+        <textarea id="expected" rows="2" placeholder="What should happen"></textarea>
+      </div>
+
+      <div class="section">
+        <label for="actual">Actual Behavior</label>
+        <textarea id="actual" rows="2" placeholder="What actually happened"></textarea>
+      </div>
+
+      <div class="section">
+        <div class="section-header collapsed" data-toggle="env-content">Environment</div>
+        <div id="env-content" class="section-content collapsed">
+          <pre id="env-info"></pre>
+        </div>
+      </div>
+
+      <div id="errors-section" class="section" style="display:none">
+        <div class="section-header" data-toggle="errors-content">
+          Console Errors <span id="error-count" class="badge">0</span>
+        </div>
+        <div id="errors-content" class="section-content collapsed">
+          <pre id="errors-list"></pre>
+        </div>
+      </div>
+
+      <div id="requests-section" class="section" style="display:none">
+        <div class="section-header" data-toggle="requests-content">
+          Failed Requests <span id="request-count" class="badge">0</span>
+        </div>
+        <div id="requests-content" class="section-content collapsed">
+          <pre id="requests-list"></pre>
+        </div>
+      </div>
+
+      <div id="jira-panel" class="jira-panel" style="display:none">
+        <div class="field-row">
+          <label for="jira-project">Project</label>
+          <select id="jira-project"></select>
+        </div>
+        <div class="field-row">
+          <label for="jira-issue-type">Issue Type</label>
+          <select id="jira-issue-type"></select>
+        </div>
+        <div class="field-row">
+          <label for="jira-priority">Priority</label>
+          <select id="jira-priority">
+            <option value="">— none —</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="btn-copy" class="btn btn-secondary">Copy</button>
+        <button id="btn-jira" class="btn btn-primary">Create Jira Issue</button>
+      </div>
+
+      <div id="status" class="status" style="display:none"></div>
     </div>
 
-    <div class="section">
-      <label for="steps">Steps to Reproduce</label>
-      <textarea id="steps" rows="3" placeholder="1. Go to...&#10;2. Click on...&#10;3. Observe..."></textarea>
-    </div>
-
-    <div class="section">
-      <label for="expected">Expected Behavior</label>
-      <textarea id="expected" rows="2" placeholder="What should happen"></textarea>
-    </div>
-
-    <div class="section">
-      <label for="actual">Actual Behavior</label>
-      <textarea id="actual" rows="2" placeholder="What actually happened"></textarea>
-    </div>
-
-    <div class="section">
-      <div class="section-header collapsed" data-toggle="env-content">Environment</div>
-      <div id="env-content" class="section-content collapsed">
-        <pre id="env-info"></pre>
-      </div>
-    </div>
-
-    <div id="errors-section" class="section" style="display:none">
-      <div class="section-header" data-toggle="errors-content">
-        Console Errors <span id="error-count" class="badge">0</span>
-      </div>
-      <div id="errors-content" class="section-content collapsed">
-        <pre id="errors-list"></pre>
-      </div>
-    </div>
-
-    <div id="requests-section" class="section" style="display:none">
-      <div class="section-header" data-toggle="requests-content">
-        Failed Requests <span id="request-count" class="badge">0</span>
-      </div>
-      <div id="requests-content" class="section-content collapsed">
-        <pre id="requests-list"></pre>
-      </div>
-    </div>
-
-    <div id="jira-panel" class="jira-panel" style="display:none">
-      <div class="field-row">
-        <label for="jira-project">Project</label>
-        <select id="jira-project"></select>
-      </div>
-      <div class="field-row">
-        <label for="jira-issue-type">Issue Type</label>
-        <select id="jira-issue-type"></select>
-      </div>
-      <div class="field-row">
-        <label for="jira-priority">Priority</label>
-        <select id="jira-priority">
-          <option value="">— none —</option>
+    <!-- ── User generator view ── -->
+    <div id="usergen-view" class="view" style="display:none">
+      <div class="field-row" style="margin-bottom:10px">
+        <label for="usergen-country">Country</label>
+        <select id="usergen-country">
+          <option value="">Global (any)</option>
         </select>
       </div>
+
+      <div class="actions" style="margin-top:0">
+        <button id="btn-usergen-copy-all" class="btn btn-secondary" disabled>Copy JSON</button>
+        <button id="btn-usergen-generate" class="btn btn-primary">Generate</button>
+      </div>
+
+      <div class="actions" style="margin-top:8px">
+        <button id="btn-usergen-autofill" class="btn btn-secondary" disabled style="flex:1">Autofill page</button>
+        <button id="btn-usergen-add-to-users" class="btn btn-secondary" disabled style="flex:1">+ Save to Users</button>
+      </div>
+
+      <div class="actions" style="margin-top:8px">
+        <button id="btn-usergen-mailinator" class="btn btn-secondary" disabled style="flex:1">Open Mailinator inbox</button>
+      </div>
+
+      <div id="usergen-placeholder" class="usergen-placeholder">
+        Click <strong>Generate</strong> to create a fake user.<br>
+        Addresses are real streets pulled from OpenStreetMap.
+      </div>
+
+      <div id="usergen-results" class="usergen-results" style="display:none"></div>
+
+      <div id="usergen-status" class="status" style="display:none"></div>
     </div>
 
-    <div class="actions">
-      <button id="btn-copy" class="btn btn-secondary">Copy</button>
-      <button id="btn-jira" class="btn btn-primary">Create Jira Issue</button>
+    <!-- ── Users List view ── -->
+    <div id="users-view" class="view" style="display:none">
+      <div id="users-drive-warn" class="status info" style="display:none; margin-bottom:10px"></div>
+
+      <div class="qa-toolbar">
+        <input type="text" id="users-filter" class="qa-filter" placeholder="Search username or notes…">
+        <button type="button" id="btn-users-add" class="btn btn-primary btn-compact">+ Add</button>
+      </div>
+      <div class="qa-toolbar qa-toolbar-sub">
+        <select id="users-env-filter" class="qa-env-filter">
+          <option value="">All envs</option>
+        </select>
+        <select id="users-brand-filter" class="qa-brand-filter">
+          <option value="">All brands</option>
+        </select>
+      </div>
+
+      <form id="users-add-form" class="qa-add-form" style="display:none">
+        <div class="field-row"><label for="users-new-username">Username</label><input type="text" id="users-new-username" autocomplete="off"></div>
+        <div class="field-row"><label for="users-new-env">Environment</label><select id="users-new-env"><option value="">— select —</option></select></div>
+        <div class="field-row"><label for="users-new-brand">Brand</label><select id="users-new-brand"><option value="">— select —</option></select></div>
+        <div class="field-row"><label for="users-new-notes">Notes</label><input type="text" id="users-new-notes" autocomplete="off"></div>
+        <div class="actions" style="margin-top:8px">
+          <button type="button" id="btn-users-cancel" class="btn btn-secondary">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save</button>
+        </div>
+      </form>
+
+      <div id="users-empty" class="qa-empty" style="display:none">No users yet. Click <strong>+ Add</strong> or connect Drive in Settings.</div>
+      <div id="users-list" class="qa-list"></div>
     </div>
 
-    <div id="status" class="status" style="display:none"></div>
+    <!-- ── Strange Stuff view ── -->
+    <div id="strange-view" class="view" style="display:none">
+      <div id="strange-drive-warn" class="status info" style="display:none; margin-bottom:10px"></div>
+
+      <div class="qa-toolbar">
+        <input type="text" id="strange-filter" class="qa-filter" placeholder="Filter by title or description…">
+        <button type="button" id="btn-strange-add" class="btn btn-primary btn-compact">+ Add</button>
+      </div>
+
+      <form id="strange-add-form" class="qa-add-form" style="display:none">
+        <div class="field-row"><label for="strange-new-title">Title</label><input type="text" id="strange-new-title" autocomplete="off"></div>
+        <div class="section">
+          <label for="strange-new-description">Description</label>
+          <textarea id="strange-new-description" rows="5"></textarea>
+        </div>
+        <div class="actions" style="margin-top:8px">
+          <button type="button" id="btn-strange-cancel" class="btn btn-secondary">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save</button>
+        </div>
+      </form>
+
+      <div id="strange-empty" class="qa-empty" style="display:none">No entries yet. Click <strong>+ Add</strong> or connect Drive in Settings.</div>
+      <div id="strange-list" class="qa-list"></div>
+    </div>
   </div>
 
   <script src="../../dist/popup/popup.js" type="module"></script>

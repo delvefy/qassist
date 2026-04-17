@@ -2,6 +2,7 @@ import type { JiraConfig } from './types.js';
 
 const JIRA_CONFIG_KEY = 'jiraConfig';
 const LAST_SELECTIONS_KEY = 'lastSelections';
+const USERGEN_COUNTRY_KEY = 'usergenCountry';
 
 export interface LastSelections {
   projectKey?: string;
@@ -29,4 +30,15 @@ export async function getLastSelections(): Promise<LastSelections> {
 
 export async function setLastSelections(selections: LastSelections): Promise<void> {
   await chrome.storage.local.set({ [LAST_SELECTIONS_KEY]: selections });
+}
+
+// User-generator country selection. Empty string means "Any country".
+export async function getUsergenCountry(): Promise<string> {
+  const result = await chrome.storage.local.get(USERGEN_COUNTRY_KEY);
+  const value = result[USERGEN_COUNTRY_KEY];
+  return typeof value === 'string' ? value : '';
+}
+
+export async function setUsergenCountry(countryCode: string): Promise<void> {
+  await chrome.storage.local.set({ [USERGEN_COUNTRY_KEY]: countryCode });
 }

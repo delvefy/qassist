@@ -1,3 +1,59 @@
+/* ── Theme tokens (mirror of popup.css) ── */
+:root,
+:root[data-theme="light"] {
+  --bg: #faf8f4;
+  --surface: #ffffff;
+  --border: #e4e0d8;
+  --border-strong: #d6d0c4;
+  --text: #2a2a2a;
+  --text-strong: #1a1a1a;
+  --text-muted: #6a6a6a;
+  --text-label: #4a4a4a;
+  --primary: #4a90d9;
+  --primary-hover: #357abd;
+  --primary-text: #ffffff;
+  --primary-glow: rgba(74, 144, 217, 0.15);
+  --secondary-bg: #ece8e0;
+  --secondary-hover: #dfd9ce;
+  --secondary-text: #333333;
+  --success-bg: #d4edda;
+  --success-text: #155724;
+  --success-border: #c3e6cb;
+  --error-bg: #f8d7da;
+  --error-text: #721c24;
+  --error-border: #f5c6cb;
+  --info-bg: #d1ecf1;
+  --info-text: #0c5460;
+  --info-border: #bee5eb;
+}
+
+:root[data-theme="dark-amber"] {
+  --bg: #1a1612;
+  --surface: #221d17;
+  --border: #3a3229;
+  --border-strong: #4a4034;
+  --text: #f2e8d8;
+  --text-strong: #fff4de;
+  --text-muted: #9a8f80;
+  --text-label: #c9b98f;
+  --primary: #e8a54e;
+  --primary-hover: #f5b75d;
+  --primary-text: #1a1612;
+  --primary-glow: rgba(232, 165, 78, 0.22);
+  --secondary-bg: #2d261e;
+  --secondary-hover: #3a3229;
+  --secondary-text: #f2e8d8;
+  --success-bg: #1f3b28;
+  --success-text: #8fd8a4;
+  --success-border: #2e5f3d;
+  --error-bg: #3d1e1e;
+  --error-text: #e89a9a;
+  --error-border: #5f2e2e;
+  --info-bg: #1e2f3d;
+  --info-text: #9ac3e8;
+  --info-border: #2e4c5f;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +63,8 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-size: 14px;
-  color: #1a1a1a;
-  background: #f5f5f5;
+  color: var(--text);
+  background: var(--bg);
   padding: 32px 16px;
 }
 
@@ -21,32 +77,32 @@ h1 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #222;
+  color: var(--text-strong);
 }
 
 h2 {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 12px;
-  color: #333;
+  color: var(--text-strong);
 }
 
 .card {
-  background: white;
-  border: 1px solid #e0e0e0;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 6px;
   padding: 20px;
   margin-bottom: 16px;
 }
 
 .help {
-  color: #666;
+  color: var(--text-muted);
   margin-bottom: 16px;
   font-size: 13px;
 }
 
 .help a {
-  color: #4a90d9;
+  color: var(--primary);
 }
 
 .field {
@@ -57,32 +113,36 @@ h2 {
   display: block;
   font-weight: 500;
   margin-bottom: 4px;
-  color: #444;
+  color: var(--text-label);
   font-size: 13px;
 }
 
 input[type="text"],
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+select {
   width: 100%;
   padding: 8px 10px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border-strong);
   border-radius: 4px;
   font-family: inherit;
   font-size: 13px;
+  background: var(--surface);
+  color: var(--text);
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
-input[type="password"]:focus {
+input[type="password"]:focus,
+select:focus {
   outline: none;
-  border-color: #4a90d9;
-  box-shadow: 0 0 0 2px rgba(74, 144, 217, 0.15);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px var(--primary-glow);
 }
 
 .hint {
   display: block;
-  color: #888;
+  color: var(--text-muted);
   font-size: 11px;
   margin-top: 4px;
 }
@@ -109,21 +169,21 @@ input[type="password"]:focus {
 }
 
 .btn-primary {
-  background: #4a90d9;
-  color: white;
+  background: var(--primary);
+  color: var(--primary-text);
 }
 
 .btn-primary:hover:not(:disabled) {
-  background: #357abd;
+  background: var(--primary-hover);
 }
 
 .btn-secondary {
-  background: #e8e8e8;
-  color: #333;
+  background: var(--secondary-bg);
+  color: var(--secondary-text);
 }
 
 .btn-secondary:hover:not(:disabled) {
-  background: #ddd;
+  background: var(--secondary-hover);
 }
 
 .status {
@@ -134,19 +194,118 @@ input[type="password"]:focus {
 }
 
 .status.success {
-  background: #d4edda;
-  color: #155724;
-  border: 1px solid #c3e6cb;
+  background: var(--success-bg);
+  color: var(--success-text);
+  border: 1px solid var(--success-border);
 }
 
 .status.error {
-  background: #f8d7da;
-  color: #721c24;
-  border: 1px solid #f5c6cb;
+  background: var(--error-bg);
+  color: var(--error-text);
+  border: 1px solid var(--error-border);
 }
 
 .status.info {
-  background: #d1ecf1;
-  color: #0c5460;
-  border: 1px solid #bee5eb;
+  background: var(--info-bg);
+  color: var(--info-text);
+  border: 1px solid var(--info-border);
+}
+
+/* ── Theme picker ── */
+.theme-picker {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.theme-option {
+  flex: 1;
+  min-width: 180px;
+  cursor: pointer;
+  display: block;
+}
+
+.theme-option input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.theme-swatch {
+  border: 2px solid var(--border-strong);
+  border-radius: 6px;
+  padding: 12px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  background: var(--surface);
+}
+
+.theme-option input:checked + .theme-swatch {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px var(--primary-glow);
+}
+
+.theme-preview {
+  height: 52px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10px;
+  gap: 6px;
+  font-family: 'SF Mono', Monaco, monospace;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.theme-preview-light {
+  background: #faf8f4;
+  color: #2a2a2a;
+  border: 1px solid #e4e0d8;
+}
+
+.theme-preview-light::before {
+  content: '';
+  width: 22px;
+  height: 22px;
+  background: #4a90d9;
+  border-radius: 50%;
+}
+
+.theme-preview-dark-amber {
+  background: #1a1612;
+  color: #f2e8d8;
+  border: 1px solid #3a3229;
+}
+
+.theme-preview-dark-amber::before {
+  content: '';
+  width: 22px;
+  height: 22px;
+  background: #e8a54e;
+  border-radius: 50%;
+}
+
+.theme-label {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text-strong);
+}
+
+.theme-sublabel {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* ── Inline code in help text ── */
+code {
+  font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+  font-size: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 1px 5px;
+  color: var(--text);
+  word-break: break-all;
 }

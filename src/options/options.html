@@ -36,6 +36,76 @@
       <h2>Connected As</h2>
       <p id="user-info"></p>
     </section>
+
+    <section class="card">
+      <h2>Google Drive</h2>
+      <p class="help">
+        Sync your QA Users list and Strange Stuff list to your Google Drive so they're
+        available on every device you're signed into.
+      </p>
+
+      <div id="drive-setup-needed" class="status info" style="display:none">
+        <strong>One-time setup required.</strong>
+        <ol style="margin:8px 0 8px 20px; line-height:1.6">
+          <li>
+            Generate a keypair in a terminal:<br>
+            <code>openssl genrsa -out qassist.pem 2048</code>
+          </li>
+          <li>
+            Derive the public key for the manifest <code>key</code> field:<br>
+            <code>openssl rsa -in qassist.pem -pubout -outform DER 2>/dev/null | openssl base64 -A</code>
+          </li>
+          <li>
+            Paste that string into <code>manifest.json</code> as <code>"key": "..."</code> and
+            reload the extension. Your extension ID becomes stable.
+          </li>
+          <li>
+            In <a href="https://console.cloud.google.com/" target="_blank" rel="noopener">Google Cloud Console</a>:
+            create a project → enable the <strong>Google Drive API</strong> → create
+            <strong>OAuth 2.0 Client ID</strong> of type <strong>Chrome Extension</strong> → paste in your
+            extension ID (see <code>chrome://extensions</code>).
+          </li>
+          <li>
+            Copy the resulting client_id into <code>manifest.json</code> under
+            <code>oauth2.client_id</code> and reload.
+          </li>
+        </ol>
+      </div>
+
+      <div id="drive-connect-panel" style="display:none">
+        <p class="help" id="drive-status-line">Not connected.</p>
+        <div class="actions">
+          <button type="button" id="btn-drive-connect" class="btn btn-primary">Connect Google Drive</button>
+          <button type="button" id="btn-drive-disconnect" class="btn btn-secondary" style="display:none">Disconnect</button>
+        </div>
+        <div id="drive-status" class="status" style="display:none"></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Appearance</h2>
+      <p class="help">Pick a theme for the side panel and this page.</p>
+
+      <div class="theme-picker">
+        <label class="theme-option">
+          <input type="radio" name="theme" value="light">
+          <div class="theme-swatch">
+            <div class="theme-preview theme-preview-light">Paper</div>
+            <div class="theme-label">Paper</div>
+            <div class="theme-sublabel">Warm light, blue accent</div>
+          </div>
+        </label>
+
+        <label class="theme-option">
+          <input type="radio" name="theme" value="dark-amber">
+          <div class="theme-swatch">
+            <div class="theme-preview theme-preview-dark-amber">Amber</div>
+            <div class="theme-label">Dark Amber</div>
+            <div class="theme-sublabel">Warm dark, amber accent</div>
+          </div>
+        </label>
+      </div>
+    </section>
   </div>
 
   <script src="../../dist/options/options.js" type="module"></script>
