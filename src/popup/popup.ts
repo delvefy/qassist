@@ -106,7 +106,7 @@ function showView(mode: Mode) {
   strangeView.style.display = mode === 'strange' ? 'block' : 'none';
   btnBack.style.display = mode === 'picker' ? 'none' : 'inline-block';
 
-  if (mode === 'picker') viewTitle.textContent = 'qassist';
+  if (mode === 'picker') viewTitle.textContent = '';
   else if (mode === 'jira') viewTitle.textContent = 'Create Jira Issue';
   else if (mode === 'usergen') viewTitle.textContent = 'Generate User';
   else if (mode === 'users') viewTitle.textContent = 'Users List';

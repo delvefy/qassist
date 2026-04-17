@@ -10,27 +10,67 @@
   <div class="container">
     <header>
       <button id="btn-back" class="icon-btn" title="Back to menu" aria-label="Back to menu" style="display:none">←</button>
-      <h1 id="view-title">qassist</h1>
+      <h1 id="view-title"></h1>
       <button id="btn-options" class="icon-btn" title="Settings" aria-label="Open settings">⚙</button>
     </header>
 
     <!-- ── Picker view ── -->
     <div id="picker-view" class="view">
       <button class="tile" data-mode="jira">
-        <div class="tile-title">Create Jira Issue</div>
-        <div class="tile-desc">Capture the page, write up a bug, file it to Jira.</div>
+        <span class="tile-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m8 2 1.88 1.88"/><path d="M14.12 3.88 16 2"/>
+            <path d="M9 7.13v-1a3 3 0 1 1 6 0v1"/>
+            <path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6Z"/>
+            <path d="M12 20v-9"/><path d="M6 13H2"/><path d="M22 13h-4"/>
+            <path d="M6.5 9C4.6 8.8 3 7.1 3 5"/><path d="M21 5c0 2.1-1.6 3.8-3.5 4"/>
+            <path d="M3 21c0-2.1 1.7-3.9 3.8-4"/><path d="M17.2 17c2.1.1 3.8 1.9 3.8 4"/>
+          </svg>
+        </span>
+        <span class="tile-body">
+          <span class="tile-title">Create Jira Issue</span>
+          <span class="tile-desc">Capture the page, write up a bug, file it to Jira.</span>
+        </span>
       </button>
       <button class="tile" data-mode="usergen">
-        <div class="tile-title">Generate User</div>
-        <div class="tile-desc">Fake name, email, phone, address for filling forms.</div>
+        <span class="tile-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <line x1="19" y1="8" x2="19" y2="14"/>
+            <line x1="22" y1="11" x2="16" y2="11"/>
+          </svg>
+        </span>
+        <span class="tile-body">
+          <span class="tile-title">Generate User</span>
+          <span class="tile-desc">Fake name, email, phone, address for filling forms.</span>
+        </span>
       </button>
       <button class="tile" data-mode="users">
-        <div class="tile-title">Users List</div>
-        <div class="tile-desc">Your known QA test accounts, synced via Drive.</div>
+        <span class="tile-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+        </span>
+        <span class="tile-body">
+          <span class="tile-title">Users List</span>
+          <span class="tile-desc">Your known QA test accounts, synced via Drive.</span>
+        </span>
       </button>
       <button class="tile" data-mode="strange">
-        <div class="tile-title">Strange Stuff</div>
-        <div class="tile-desc">Gotchas, runbook snippets, and odd cases.</div>
+        <span class="tile-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/>
+            <path d="M9 18h6"/><path d="M10 22h4"/>
+          </svg>
+        </span>
+        <span class="tile-body">
+          <span class="tile-title">Strange Stuff</span>
+          <span class="tile-desc">Gotchas, runbook snippets, and odd cases.</span>
+        </span>
       </button>
     </div>
 
@@ -139,7 +179,7 @@
 
       <div id="usergen-placeholder" class="usergen-placeholder">
         Click <strong>Generate</strong> to create a fake user.<br>
-        Addresses are real streets pulled from OpenStreetMap.
+        Addresses are real buildings (street, number &amp; zip) from OpenStreetMap.
       </div>
 
       <div id="usergen-results" class="usergen-results" style="display:none"></div>
