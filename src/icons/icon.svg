@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="55%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glass" cx="38%" cy="32%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <rect width="128" height="128" rx="28" fill="url(#sheen)"/>
+
+  <g transform="translate(2,2)">
+    <rect x="72" y="78" width="44" height="16" rx="8" fill="#0f172a" opacity="0.28" transform="rotate(45 94 86)"/>
+  </g>
+  <rect x="72" y="78" width="44" height="16" rx="8" fill="white" transform="rotate(45 94 86)"/>
+
+  <circle cx="54" cy="54" r="34" fill="#0f172a" opacity="0.25"/>
+  <circle cx="54" cy="54" r="34" fill="none" stroke="white" stroke-width="11"/>
+  <circle cx="54" cy="54" r="28" fill="url(#glass)"/>
+
+  <path d="M 38 57 L 50 69 L 72 42" fill="none" stroke="#4ade80" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
