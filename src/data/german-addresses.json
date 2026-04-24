@@ -1,0 +1,3082 @@
+[
+  {
+    "street": "Ackerstraße",
+    "housenumber": "171",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Anklamer Straße",
+    "housenumber": "27",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Bergstraße",
+    "housenumber": "2",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Chausseestraße",
+    "housenumber": "22",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Große Hamburger Straße",
+    "housenumber": "13",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Große Hamburger Straße",
+    "housenumber": "23",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Große Hamburger Straße",
+    "housenumber": "37",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Invalidenstraße",
+    "housenumber": "114",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Invalidenstraße",
+    "housenumber": "35",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Krausnickstraße",
+    "housenumber": "3A",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Linienstraße",
+    "housenumber": "132",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Linienstraße",
+    "housenumber": "133",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Novalisstraße",
+    "housenumber": "14",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Novalisstraße",
+    "housenumber": "2",
+    "postcode": "10115",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Albrechtstraße",
+    "housenumber": "12",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Albrechtstraße",
+    "housenumber": "14b",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Anton-Wilhelm-Amo-Straße",
+    "housenumber": "30",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Behrenstraße",
+    "housenumber": "47",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Behrenstraße",
+    "housenumber": "55-57",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Charlottenstraße",
+    "housenumber": "49",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Charlottenstraße",
+    "housenumber": "56",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Charlottenstraße",
+    "housenumber": "57",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Charlottenstraße",
+    "housenumber": "59",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Dorotheenstraße",
+    "housenumber": "30",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Französische Straße",
+    "housenumber": "25",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Französische Straße",
+    "housenumber": "33C",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Französische Straße",
+    "housenumber": "47",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "101",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "103",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "105-106",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "107",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "125",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "129 f/g",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "148",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "151",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "158-164",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "167;168",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "185-190",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "60",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "61",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "62",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "80",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "81",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "91",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "96",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Glinkastraße",
+    "housenumber": "4",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Johannisstraße",
+    "housenumber": "11",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Kronenstraße",
+    "housenumber": "66",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Leipziger Straße",
+    "housenumber": "43",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Leipziger Straße",
+    "housenumber": "47",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Marienstraße",
+    "housenumber": "18",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Oranienburger Straße",
+    "housenumber": "45",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Pariser Platz",
+    "housenumber": "4A",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Reinhardtstraße",
+    "housenumber": "21",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schiffbauerdamm",
+    "housenumber": "12",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schiffbauerdamm",
+    "housenumber": "6",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schiffbauerdamm",
+    "housenumber": "8",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Spittelmarkt",
+    "housenumber": "10",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Unter den Linden",
+    "housenumber": "13",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Unter den Linden",
+    "housenumber": "26",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Werderscher Markt",
+    "housenumber": "1",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Wilhelmstraße",
+    "housenumber": "44",
+    "postcode": "10117",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Angermünder Straße",
+    "housenumber": "7",
+    "postcode": "10119",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Brunnenstraße",
+    "housenumber": "181",
+    "postcode": "10119",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Christinenstraße",
+    "housenumber": "30",
+    "postcode": "10119",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Gormannstraße",
+    "housenumber": "18e",
+    "postcode": "10119",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rosenthaler Straße",
+    "housenumber": "1",
+    "postcode": "10119",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rosenthaler Straße",
+    "housenumber": "72",
+    "postcode": "10119",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schönhauser Allee",
+    "housenumber": "10-11",
+    "postcode": "10119",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schönhauser Allee",
+    "housenumber": "12",
+    "postcode": "10119",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schönhauser Allee",
+    "housenumber": "182",
+    "postcode": "10119",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schönhauser Allee",
+    "housenumber": "188",
+    "postcode": "10119",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Torstraße",
+    "housenumber": "65",
+    "postcode": "10119",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Alexanderstraße",
+    "housenumber": "5",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Alexanderstraße",
+    "housenumber": "7",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Berolinastraße",
+    "housenumber": "15",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Berolinastraße",
+    "housenumber": "17",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Berolinastraße",
+    "housenumber": "20",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Berolinastraße",
+    "housenumber": "21",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Brüderstraße",
+    "housenumber": "11-12",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Dircksenstraße",
+    "housenumber": "40",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Gertraudenstraße",
+    "housenumber": "19",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Hackescher Markt",
+    "housenumber": "4",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Liebknecht-Straße",
+    "housenumber": "23",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Liebknecht-Straße",
+    "housenumber": "29",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Liebknecht-Straße",
+    "housenumber": "3",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Marx-Allee",
+    "housenumber": "11",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Marx-Allee",
+    "housenumber": "19",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Marx-Allee",
+    "housenumber": "25",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Marx-Allee",
+    "housenumber": "36",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Marx-Allee",
+    "housenumber": "37",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Marx-Allee",
+    "housenumber": "43",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Marx-Allee",
+    "housenumber": "47",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Marx-Allee",
+    "housenumber": "5",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Marx-Allee",
+    "housenumber": "51",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Münzstraße",
+    "housenumber": "5",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Oranienburger Straße",
+    "housenumber": "13",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Panoramastraße",
+    "housenumber": "1",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Poststraße",
+    "housenumber": "23",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rathausstraße",
+    "housenumber": "1",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rathausstraße",
+    "housenumber": "11",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rathausstraße",
+    "housenumber": "13",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rathausstraße",
+    "housenumber": "21",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rathausstraße",
+    "housenumber": "23",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rathausstraße",
+    "housenumber": "25",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rathausstraße",
+    "housenumber": "5",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rathausstraße",
+    "housenumber": "7",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rathausstraße",
+    "housenumber": "9",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rosa-Luxemburg-Straße",
+    "housenumber": "30",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rosenstraße",
+    "housenumber": "19",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Sophienstraße",
+    "housenumber": "18",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Sophienstraße",
+    "housenumber": "6",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Weydemeyerstraße",
+    "housenumber": "2",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Weydemeyerstraße",
+    "housenumber": "2a",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Weydingerstraße",
+    "housenumber": "18",
+    "postcode": "10178",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Alte Jakobstraße",
+    "housenumber": "77",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Alte Jakobstraße",
+    "housenumber": "83",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Dircksenstraße",
+    "housenumber": "2",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Fischerinsel",
+    "housenumber": "12",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Grunerstraße",
+    "housenumber": "20",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Grunerstraße",
+    "housenumber": "5",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Grunerstraße",
+    "housenumber": "7",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Heinrich-Heine-Straße",
+    "housenumber": "15",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Holzmarktstraße",
+    "housenumber": "12/14",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Jacobystraße",
+    "housenumber": "4",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Klosterstraße",
+    "housenumber": "59",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Klosterstraße",
+    "housenumber": "62",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Köpenicker Straße",
+    "housenumber": "92",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Neue Blumenstraße",
+    "housenumber": "5",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Neue Roßstraße",
+    "housenumber": "11-12",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Neue Roßstraße",
+    "housenumber": "13",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rolandufer",
+    "housenumber": "13",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rungestraße",
+    "housenumber": "20",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schillingstraße",
+    "housenumber": "12",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Stralauer Straße",
+    "housenumber": "48,49,50,51,52,53,54,55,56",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Wallstraße",
+    "housenumber": "23",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Wallstraße",
+    "housenumber": "70-73",
+    "postcode": "10179",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Karl-Marx-Allee",
+    "housenumber": "90a",
+    "postcode": "10243",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Koppenstraße",
+    "housenumber": "3",
+    "postcode": "10243",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Palisadenstraße",
+    "housenumber": "48",
+    "postcode": "10243",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rüdersdorfer Straße",
+    "housenumber": "56",
+    "postcode": "10243",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Strausberger Platz",
+    "housenumber": "19",
+    "postcode": "10243",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Strausberger Platz",
+    "housenumber": "2",
+    "postcode": "10243",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Warschauer Straße",
+    "housenumber": "72",
+    "postcode": "10243",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Grünberger Straße",
+    "housenumber": "34",
+    "postcode": "10245",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Platz der Vereinten Nationen",
+    "housenumber": "22",
+    "postcode": "10249",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Belforter Straße",
+    "housenumber": "27",
+    "postcode": "10405",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Christburger Straße",
+    "housenumber": "6",
+    "postcode": "10405",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Marienburger Straße",
+    "housenumber": "30A",
+    "postcode": "10405",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Prenzlauer Allee",
+    "housenumber": "4",
+    "postcode": "10405",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Prenzlauer Allee",
+    "housenumber": "43",
+    "postcode": "10405",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rykestraße",
+    "housenumber": "39",
+    "postcode": "10405",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Rykestraße",
+    "housenumber": "8",
+    "postcode": "10405",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Saarbrücker Straße",
+    "housenumber": "15",
+    "postcode": "10405",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Straßburger Straße",
+    "housenumber": "2",
+    "postcode": "10405",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Straßburger Straße",
+    "housenumber": "44",
+    "postcode": "10405",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Winsstraße",
+    "housenumber": "45",
+    "postcode": "10405",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Winsstraße",
+    "housenumber": "48",
+    "postcode": "10405",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Danziger Straße",
+    "housenumber": "119",
+    "postcode": "10407",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Pasteurstraße",
+    "housenumber": "15",
+    "postcode": "10407",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Choriner Straße",
+    "housenumber": "30",
+    "postcode": "10435",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Danziger Straße",
+    "housenumber": "2",
+    "postcode": "10435",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Knaackstraße",
+    "housenumber": "99",
+    "postcode": "10435",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Kollwitzstraße",
+    "housenumber": "104",
+    "postcode": "10435",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Kollwitzstraße",
+    "housenumber": "88",
+    "postcode": "10435",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schwedter Straße",
+    "housenumber": "29",
+    "postcode": "10435",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schönhauser Allee",
+    "housenumber": "44b",
+    "postcode": "10435",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Am Falkplatz",
+    "housenumber": "1",
+    "postcode": "10437",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Greifenhagener Straße",
+    "housenumber": "14",
+    "postcode": "10437",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Lychener Straße",
+    "housenumber": "21",
+    "postcode": "10437",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Lychener Straße",
+    "housenumber": "35",
+    "postcode": "10437",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Pappelallee",
+    "housenumber": "19",
+    "postcode": "10437",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schönhauser Allee",
+    "housenumber": "118",
+    "postcode": "10437",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schönhauser Allee",
+    "housenumber": "58",
+    "postcode": "10437",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Schivelbeiner Straße",
+    "housenumber": "33",
+    "postcode": "10439",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Alt-Moabit",
+    "housenumber": "141",
+    "postcode": "10557",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Joachim-Karnatz-Allee",
+    "housenumber": "23",
+    "postcode": "10557",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Joachim-Karnatz-Allee",
+    "housenumber": "3",
+    "postcode": "10557",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Joachim-Karnatz-Allee",
+    "housenumber": "31",
+    "postcode": "10557",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Joachim-Karnatz-Allee",
+    "housenumber": "7",
+    "postcode": "10557",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Lehrter Straße",
+    "housenumber": "35",
+    "postcode": "10557",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Alte Potsdamer Straße",
+    "housenumber": "7",
+    "postcode": "10785",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Bellevuestraße",
+    "housenumber": "3",
+    "postcode": "10785",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Bellevuestraße",
+    "housenumber": "3-5",
+    "postcode": "10785",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Bissingzeile",
+    "housenumber": "5",
+    "postcode": "10785",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Hiroshimastraße",
+    "housenumber": "26",
+    "postcode": "10785",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Marlene-Dietrich-Platz",
+    "housenumber": "2",
+    "postcode": "10785",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Potsdamer Platz",
+    "housenumber": "10",
+    "postcode": "10785",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Potsdamer Platz",
+    "housenumber": "5",
+    "postcode": "10785",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Potsdamer Straße",
+    "housenumber": "2",
+    "postcode": "10785",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Fürbringerstraße",
+    "housenumber": "27",
+    "postcode": "10961",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Gneisenaustraße",
+    "housenumber": "18",
+    "postcode": "10961",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Mehringdamm",
+    "housenumber": "36",
+    "postcode": "10961",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Nostitzstraße",
+    "housenumber": "25",
+    "postcode": "10961",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Nostitzstraße",
+    "housenumber": "6",
+    "postcode": "10961",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Urbanstraße",
+    "housenumber": "6",
+    "postcode": "10961",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Zossener Straße",
+    "housenumber": "19",
+    "postcode": "10961",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Anhalter Straße",
+    "housenumber": "1",
+    "postcode": "10963",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Anhalter Straße",
+    "housenumber": "2",
+    "postcode": "10963",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Anhalter Straße",
+    "housenumber": "6",
+    "postcode": "10963",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Hallesches Ufer",
+    "housenumber": "34",
+    "postcode": "10963",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Stresemannstraße",
+    "housenumber": "29",
+    "postcode": "10963",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Stresemannstraße",
+    "housenumber": "66",
+    "postcode": "10963",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Stresemannstraße",
+    "housenumber": "90",
+    "postcode": "10963",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Stresemannstraße",
+    "housenumber": "95-97",
+    "postcode": "10963",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Yorckstraße",
+    "housenumber": "88H",
+    "postcode": "10965",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Böckhstraße",
+    "housenumber": "47-48",
+    "postcode": "10967",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Grimmstraße",
+    "housenumber": "1A",
+    "postcode": "10967",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Hasenheide",
+    "housenumber": "51",
+    "postcode": "10967",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "219",
+    "postcode": "10969",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Friedrichstraße",
+    "housenumber": "31",
+    "postcode": "10969",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Muskauer Straße",
+    "housenumber": "43",
+    "postcode": "10997",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Forster Straße",
+    "housenumber": "56",
+    "postcode": "10999",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Oranienstraße",
+    "housenumber": "202",
+    "postcode": "10999",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Skalitzer Straße",
+    "housenumber": "127-128",
+    "postcode": "10999",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Brunnenstraße",
+    "housenumber": "55",
+    "postcode": "13355",
+    "city": "Berlin",
+    "state": "Berlin"
+  },
+  {
+    "street": "Blumenstraße",
+    "housenumber": "1",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Frauenplatz",
+    "housenumber": "8",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Hochbrückenstraße",
+    "housenumber": "9",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Isartorplatz",
+    "housenumber": "8",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Marienplatz",
+    "housenumber": "15",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Marienplatz",
+    "housenumber": "8",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sonnenstraße",
+    "housenumber": "27",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sonnenstraße",
+    "housenumber": "6",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Tal",
+    "housenumber": "10",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Tal",
+    "housenumber": "24",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Tal",
+    "housenumber": "6",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Zweibrückenstraße",
+    "housenumber": "1",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Zweibrückenstraße",
+    "housenumber": "15",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Zweibrückenstraße",
+    "housenumber": "19",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Zweibrückenstraße",
+    "housenumber": "2",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Zweibrückenstraße",
+    "housenumber": "4",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Zweibrückenstraße",
+    "housenumber": "6",
+    "postcode": "80331",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Augustenstraße",
+    "housenumber": "53",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Augustenstraße",
+    "housenumber": "62",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Augustenstraße",
+    "housenumber": "64",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Augustenstraße",
+    "housenumber": "68",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Augustenstraße",
+    "housenumber": "70",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Augustenstraße",
+    "housenumber": "72",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Gabelsbergerstraße",
+    "housenumber": "40",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Gabelsbergerstraße",
+    "housenumber": "48",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Gabelsbergerstraße",
+    "housenumber": "54",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Gabelsbergerstraße",
+    "housenumber": "58",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Gabelsbergerstraße",
+    "housenumber": "85",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Gabelsbergerstraße",
+    "housenumber": "97",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Max-Joseph-Platz",
+    "housenumber": "3",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Oskar-von-Miller-Ring",
+    "housenumber": "20",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Rottmannstraße",
+    "housenumber": "15",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Steinheilstraße",
+    "housenumber": "21",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Theatinerstraße",
+    "housenumber": "15",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Theatinerstraße",
+    "housenumber": "32",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Theresienstraße",
+    "housenumber": "122",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Theresienstraße",
+    "housenumber": "126",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Theresienstraße",
+    "housenumber": "41",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Theresienstraße",
+    "housenumber": "43",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Theresienstraße",
+    "housenumber": "61",
+    "postcode": "80333",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Bahnhofplatz",
+    "housenumber": "1",
+    "postcode": "80335",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Bayerstraße",
+    "housenumber": "25",
+    "postcode": "80335",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Bayerstraße",
+    "housenumber": "3",
+    "postcode": "80335",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Dachauer Straße",
+    "housenumber": "7",
+    "postcode": "80335",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Karlsplatz",
+    "housenumber": "10",
+    "postcode": "80335",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Karlsplatz",
+    "housenumber": "5",
+    "postcode": "80335",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Nymphenburger Straße",
+    "housenumber": "31",
+    "postcode": "80335",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Goethestraße",
+    "housenumber": "70",
+    "postcode": "80336",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Goethestraße",
+    "housenumber": "74",
+    "postcode": "80336",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Schillerstraße",
+    "housenumber": "9",
+    "postcode": "80336",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Schwanthalerstraße",
+    "housenumber": "8",
+    "postcode": "80336",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Goetheplatz",
+    "housenumber": "2",
+    "postcode": "80337",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Lindwurmstraße",
+    "housenumber": "2a",
+    "postcode": "80337",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Lindwurmstraße",
+    "housenumber": "4",
+    "postcode": "80337",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Landsberger Straße",
+    "housenumber": "19",
+    "postcode": "80339",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Corneliusstraße",
+    "housenumber": "16",
+    "postcode": "80469",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Fraunhoferstraße",
+    "housenumber": "9",
+    "postcode": "80469",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Klenzestraße",
+    "housenumber": "17",
+    "postcode": "80469",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Reichenbachstraße",
+    "housenumber": "15",
+    "postcode": "80469",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Reichenbachstraße",
+    "housenumber": "47",
+    "postcode": "80469",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Reichenbachstraße",
+    "housenumber": "9",
+    "postcode": "80469",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Rumfordstraße",
+    "housenumber": "35",
+    "postcode": "80469",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Alexandrastraße",
+    "housenumber": "3",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Alexandrastraße",
+    "housenumber": "4",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Bruderstraße",
+    "housenumber": "6",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Bruderstraße",
+    "housenumber": "8",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Bürkleinstraße",
+    "housenumber": "17",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Christophstraße",
+    "housenumber": "10",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Christophstraße",
+    "housenumber": "12",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Christophstraße",
+    "housenumber": "3",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Christophstraße",
+    "housenumber": "7a",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Christophstraße",
+    "housenumber": "9",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Gewürzmühlstraße",
+    "housenumber": "1",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Gewürzmühlstraße",
+    "housenumber": "3",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Gewürzmühlstraße",
+    "housenumber": "5",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Liebigstraße",
+    "housenumber": "10a",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Liebigstraße",
+    "housenumber": "14",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Liebigstraße",
+    "housenumber": "28",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Liebigstraße",
+    "housenumber": "5",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Maximilianstraße",
+    "housenumber": "47",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Oettingenstraße",
+    "housenumber": "15",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Oettingenstraße",
+    "housenumber": "16",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Oettingenstraße",
+    "housenumber": "2",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Pfarrstraße",
+    "housenumber": "4",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Prinzregentenstraße",
+    "housenumber": "24",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Reitmorstraße",
+    "housenumber": "21",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Reitmorstraße",
+    "housenumber": "3",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Reitmorstraße",
+    "housenumber": "7",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Robert-Koch-Straße",
+    "housenumber": "18",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Robert-Koch-Straße",
+    "housenumber": "4",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Robert-Koch-Straße",
+    "housenumber": "5",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sankt-Anna-Platz",
+    "housenumber": "1",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sankt-Anna-Straße",
+    "housenumber": "11",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sankt-Anna-Straße",
+    "housenumber": "13",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sankt-Anna-Straße",
+    "housenumber": "14",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sankt-Anna-Straße",
+    "housenumber": "15",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sankt-Anna-Straße",
+    "housenumber": "16",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sankt-Anna-Straße",
+    "housenumber": "17",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sankt-Anna-Straße",
+    "housenumber": "18",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sankt-Anna-Straße",
+    "housenumber": "31",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Seitzstraße",
+    "housenumber": "10",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Seitzstraße",
+    "housenumber": "11",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Seitzstraße",
+    "housenumber": "12",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Seitzstraße",
+    "housenumber": "13",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Seitzstraße",
+    "housenumber": "15",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Seitzstraße",
+    "housenumber": "19",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Seitzstraße",
+    "housenumber": "29",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Seitzstraße",
+    "housenumber": "9",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sternstraße",
+    "housenumber": "13",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sternstraße",
+    "housenumber": "16",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sternstraße",
+    "housenumber": "17",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sternstraße",
+    "housenumber": "21",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sternstraße",
+    "housenumber": "22",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sternstraße",
+    "housenumber": "26",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sternstraße",
+    "housenumber": "28",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Tattenbachstraße",
+    "housenumber": "20",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Tattenbachstraße",
+    "housenumber": "6",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Thierschplatz",
+    "housenumber": "5",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Thierschstraße",
+    "housenumber": "55",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Triftstraße",
+    "housenumber": "1",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Triftstraße",
+    "housenumber": "10",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Triftstraße",
+    "housenumber": "2",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Triftstraße",
+    "housenumber": "4",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Triftstraße",
+    "housenumber": "6",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Triftstraße",
+    "housenumber": "9",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Unsöldstraße",
+    "housenumber": "10",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Wagmüllerstraße",
+    "housenumber": "14",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Wagmüllerstraße",
+    "housenumber": "15",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Wagmüllerstraße",
+    "housenumber": "19",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Widenmayerstraße",
+    "housenumber": "15",
+    "postcode": "80538",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Max-Joseph-Platz",
+    "housenumber": "4",
+    "postcode": "80539",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Odeonsplatz",
+    "housenumber": "15",
+    "postcode": "80539",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Odeonsplatz",
+    "housenumber": "18",
+    "postcode": "80539",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Odeonsplatz",
+    "housenumber": "7",
+    "postcode": "80539",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Schönfeldstraße",
+    "housenumber": "22",
+    "postcode": "80539",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Veterinärstraße",
+    "housenumber": "18",
+    "postcode": "80539",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Donnersbergerstraße",
+    "housenumber": "50a",
+    "postcode": "80634",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Erich-Kästner-Straße",
+    "housenumber": "14",
+    "postcode": "80796",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Hohenzollernplatz",
+    "housenumber": "1",
+    "postcode": "80796",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Hohenzollernplatz",
+    "housenumber": "7",
+    "postcode": "80796",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Hohenzollernstraße",
+    "housenumber": "93",
+    "postcode": "80796",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Nordendstraße",
+    "housenumber": "37",
+    "postcode": "80796",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Augustenstraße",
+    "housenumber": "100",
+    "postcode": "80798",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Augustenstraße",
+    "housenumber": "116",
+    "postcode": "80798",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Augustenstraße",
+    "housenumber": "85a",
+    "postcode": "80798",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Augustenstraße",
+    "housenumber": "92",
+    "postcode": "80798",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Georgenstraße",
+    "housenumber": "71",
+    "postcode": "80798",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Görresstraße",
+    "housenumber": "8a",
+    "postcode": "80798",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Heßstraße",
+    "housenumber": "71",
+    "postcode": "80798",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Adalbertstraße",
+    "housenumber": "10",
+    "postcode": "80799",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Amalienstraße",
+    "housenumber": "51",
+    "postcode": "80799",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Schellingstraße",
+    "housenumber": "31",
+    "postcode": "80799",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Agnesstraße",
+    "housenumber": "8",
+    "postcode": "80801",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Franz-Joseph-Straße",
+    "housenumber": "47",
+    "postcode": "80801",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Implerstraße",
+    "housenumber": "21",
+    "postcode": "81371",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Isarauen",
+    "housenumber": "8",
+    "postcode": "81379",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Schlierseestraße",
+    "housenumber": "33",
+    "postcode": "81539",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Schlierseestraße",
+    "housenumber": "47",
+    "postcode": "81539",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Schlierseestraße",
+    "housenumber": "73",
+    "postcode": "81539",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Auerfeldstraße",
+    "housenumber": "18",
+    "postcode": "81541",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Auerfeldstraße",
+    "housenumber": "21",
+    "postcode": "81541",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Auerfeldstraße",
+    "housenumber": "25",
+    "postcode": "81541",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Mariahilfplatz",
+    "housenumber": "17",
+    "postcode": "81541",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sankt-Martins-Platz",
+    "housenumber": "3",
+    "postcode": "81541",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Konradinstraße",
+    "housenumber": "13",
+    "postcode": "81543",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Kellerstraße",
+    "housenumber": "1",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Kellerstraße",
+    "housenumber": "17",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Orleansplatz",
+    "housenumber": "2",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Orleansplatz",
+    "housenumber": "3",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Orleansplatz",
+    "housenumber": "5",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Orleansplatz",
+    "housenumber": "6",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Orleansplatz",
+    "housenumber": "6a",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Orleansstraße",
+    "housenumber": "55",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Pariser Platz",
+    "housenumber": "1",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Pariser Platz",
+    "housenumber": "2",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Pariser Straße",
+    "housenumber": "15",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Pariser Straße",
+    "housenumber": "17",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Pariser Straße",
+    "housenumber": "19",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Pariser Straße",
+    "housenumber": "27",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Pariser Straße",
+    "housenumber": "29",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Pariser Straße",
+    "housenumber": "29a",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Pariser Straße",
+    "housenumber": "30",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Pariser Straße",
+    "housenumber": "31",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Pariser Straße",
+    "housenumber": "34",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Preysingstraße",
+    "housenumber": "8",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Rosenheimer Straße",
+    "housenumber": "1",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Rosenheimer Straße",
+    "housenumber": "113a",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Rosenheimer Straße",
+    "housenumber": "15",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Rosenheimer Straße",
+    "housenumber": "75",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sedanstraße",
+    "housenumber": "18",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sedanstraße",
+    "housenumber": "29",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sedanstraße",
+    "housenumber": "32",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sedanstraße",
+    "housenumber": "37",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "14",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "20",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "21",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "22",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "23",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "24",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "29",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "33",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "36",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "38",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "39",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "44",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Weißenburger Straße",
+    "housenumber": "46",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Wörthstraße",
+    "housenumber": "34",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Wörthstraße",
+    "housenumber": "51",
+    "postcode": "81667",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Balanstraße",
+    "housenumber": "23",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Balanstraße",
+    "housenumber": "47",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Franziskanerstraße",
+    "housenumber": "16",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Hochstraße",
+    "housenumber": "11",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Rablstraße",
+    "housenumber": "10",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Rablstraße",
+    "housenumber": "45",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Rosenheimer Straße",
+    "housenumber": "46",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Rosenheimer Straße",
+    "housenumber": "92a",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sankt-Wolfgangs-Platz",
+    "housenumber": "10",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sankt-Wolfgangs-Platz",
+    "housenumber": "9a",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Schleibingerstraße",
+    "housenumber": "16",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Sieboldstraße",
+    "housenumber": "4",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Simon-Knoll-Platz",
+    "housenumber": "2",
+    "postcode": "81669",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Anzinger Straße",
+    "housenumber": "2",
+    "postcode": "81671",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Atelierstraße",
+    "housenumber": "18",
+    "postcode": "81671",
+    "city": "München",
+    "state": "Bayern"
+  },
+  {
+    "street": "Max-Planck-Straße",
+    "housenumber": "12",
+    "postcode": "81675",
+    "city": "München",
+    "state": "Bayern"
+  }
+]
